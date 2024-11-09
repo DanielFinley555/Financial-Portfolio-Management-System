@@ -10,7 +10,7 @@ export const assets = [
   { id: 5, name: 'chair', type: 'furniture', price: 100, quantity: 10 },
 ];
 
-//Export the function
+//Export getAssetByID function
 
 export function getAssetById(id) {
   return assets.find(asset => asset.id === id);
